@@ -8,5 +8,6 @@ Repository for my long experiment arduino sketches<br/>
 2. **sketch_final_2.0**: Long experiment master sketch<br/>
 3. **sd_end_test_2**: Testing SD.end() and SD.begin() for ejecting and re-inserting SD cards by on/off switch<br/>
 4. **rtc_int_test**: Testing interrupts using external RTC PCF8523<br/>
-5. **rtc_int_30s_test**: Testing interrupts using external RTC, write out every 30 sec<br/>
-6. **sd_rtc_test**: SD card + switch + RTC
+5. **rtc_int_30s_test**: Testing interrupts using external RTC + write out every 30 sec<br/>
+6. **sd_rtc_test**: SD card + switch to eject/re-initialise + RTC (no interrupts), logging time every 5 sec<br/>
+7. **rtc_int_30s_sd_switch**: Combined SD card + switch on/off + RTC + interrupts + log every 30 sec<br/>
