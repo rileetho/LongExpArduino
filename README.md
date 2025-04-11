@@ -6,5 +6,7 @@ Repository for my long experiment arduino sketches<br/>
 *Includes:*<br/>
 1. **rtc-example**: Example 1 sec interrupt using UNO R4 Minima onboard RTC<br/>
 2. **sketch_final_2.0**: Long experiment master sketch<br/>
-3. **sd_end_test_2**: Testing SD.end() and SD.begin() for ejecting and re-inserting SD cards<br/>
-4. **rtc_int_test**: Testing interrupts using external/onboard RTC's<br/>
+3. **sd_end_test_2**: Testing SD.end() and SD.begin() for ejecting and re-inserting SD cards by on/off switch<br/>
+4. **rtc_int_test**: Testing interrupts using external RTC PCF8523<br/>
+5. **rtc_int_30s_test**: Testing interrupts using external RTC, write out every 30 sec<br/>
+6. **sd_rtc_test**: SD card + switch + RTC
